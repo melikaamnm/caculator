@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    background: none;
+    background: linear-gradient(to left, #84ceab, #ec69a6 );
+    
+}
+div{
+    text-align: center;
+    margin-top: 50px;
+}
+div h1{
+    font-size: 72px;
+}
+div h2{
+    font-size: 36px;
+}
+div h2 span{
+    display: inline-block;
+    color: white;
+    margin: 0 80px;
+}
+.calform{
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 440px;
+    left: 680px;
+    transform: translate(-50%, -50%);
+    transition: 0.20px;
+    text-align: center;
+}
+#answer-display{
+     background-color: whitesmoke;
+     border: 1.5px solid #656364;
+     border-radius: 15px;
+     font-size: 25px;
+     font-weight: 400;
+     height: 50px;
+     color:#050002;
+     margin-bottom: 10px;
+}
+.num-btn{color: white;
+    width: 60px;
+    height: 55px;
+    border-radius: 35%;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 2.5px;
+    background-color:#B40983;
+}
+.oprator{
+    width: 70px;
+    height: 55px;
+    border-radius: 25%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    transition: 0.20px;
+    cursor: pointer;
+}
+.oprator{
+	width: 70px;
+}
+.oprator:hover{
+    background-color: #C8F960;
+}
+
+#zero{
+    width: 60px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+	color:white;
+	background-color: #B40983;
+	margin-left: 95px;
+
+}
+.clear{
+	background-color: white;
+	color: black;
+	 width: 70px;
+    height: 55px;
+    border-radius: 25%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    transition: 0.20px;
+    cursor: pointer;
+	
+}
+.clear:hover{
+    background-color: #C8F960;
+}
+.cam{
+	 width: 70px;
+    height: 55px;
+    border-radius: 25%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    transition: 0.20px;
+    cursor: pointer;
+	color:black;
+	background-color: white;
+}
+.cam:hover{
+    background-color: #C8F960;
+}
+.seven{
+	margin-left: 28px;
+}
+.fore {
+	margin-left: 28px;
+}
+.one {
+	margin-left: 28px;
+}
